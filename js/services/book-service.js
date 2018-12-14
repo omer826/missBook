@@ -12,7 +12,8 @@ function init(){
     books = utils.loadFromStorage(BOOKS_KEY)
 
     if (!books || books.length === 0) {
-        books = JSON.parse(readJSON('/books.json'));
+
+        books = JSON.parse(readJSON('../../../books.json'));
     }
 
     saveToStorage(BOOKS_KEY,books)
