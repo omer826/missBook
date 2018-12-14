@@ -1,0 +1,23 @@
+.about-main {
+    margin: 0 auto;
+    width: 50%;
+}
+.about-main div{ 
+    margin: 0 0 10px;
+}
+.about-details img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    box-shadow: 0 0 12px black;
+}
+.about-details ul li {
+    margin: 0 10px 0 0;
+}
+.about-details ul li a {
+    font-size: 30px;
+}
+

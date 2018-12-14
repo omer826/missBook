@@ -1,0 +1,33 @@
+/* ------------------home----------------------- */
+
+.home-page {
+
+    background-color: #d69b34; 
+    color: #fddb95; 
+}
+.home-page img {
+    height: 70vh;
+}
+.home-header {
+    justify-content: center;
+    padding: 0 5px;
+}
+
+.home-header h1{
+    text-transform: uppercase;
+    font-size: 3em;
+    word-wrap: break-word;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+@media (max-width:242px){
+    .home-header h1{
+        font-size: 1em;
+    }
+    .home-page img {
+        height: 80vh;
+        width: auto;
+    }
+}
